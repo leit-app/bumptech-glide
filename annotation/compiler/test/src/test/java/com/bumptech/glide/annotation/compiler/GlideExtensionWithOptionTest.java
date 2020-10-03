@@ -78,10 +78,10 @@ public class GlideExtensionWithOptionTest implements CompilationProvider {
 
   @Test
   @ReferencedResource
-  public void compilation_generatesExpectedGeneratedAppGlideModuleImpl() throws IOException {
+  public void compilation_generatesExpectedGeneratedAppGlideModuleImpl2() throws IOException {
     assertThat(compilation)
-        .generatedSourceFile(glide("GeneratedAppGlideModuleImpl"))
-        .hasSourceEquivalentTo(appResource("GeneratedAppGlideModuleImpl.java"));
+        .generatedSourceFile(glide("GeneratedAppGlideModuleImpl2"))
+        .hasSourceEquivalentTo(appResource("GeneratedAppGlideModuleImpl2.java"));
   }
 
   @Test

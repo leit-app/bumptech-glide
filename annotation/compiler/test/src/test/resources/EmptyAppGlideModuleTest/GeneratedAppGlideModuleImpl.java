@@ -8,10 +8,10 @@ import java.util.Collections;
 import java.util.Set;
 
 @SuppressWarnings("deprecation")
-final class GeneratedAppGlideModuleImpl extends GeneratedAppGlideModule {
+final class GeneratedAppGlideModuleImpl2 extends GeneratedAppGlideModule {
   private final EmptyAppModule appGlideModule;
 
-  public GeneratedAppGlideModuleImpl(Context context) {
+  public GeneratedAppGlideModuleImpl2(Context context) {
     appGlideModule = new EmptyAppModule();
     if (Log.isLoggable("Glide", Log.DEBUG)) {
       Log.d("Glide", "Discovered AppGlideModule from annotation: com.bumptech.glide.test.EmptyAppModule");

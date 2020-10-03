@@ -39,7 +39,7 @@ import javax.lang.model.type.TypeMirror;
  *
  * <pre>
  * <code>
- *  final class GeneratedAppGlideModuleImpl extends com.bumptech.glide.GeneratedAppGlideModule {
+ *  final class GeneratedAppGlideModuleImpl2 extends com.bumptech.glide.GeneratedAppGlideModule {
  *    private final com.bumptech.glide.samples.giphy.GiphyGlideModule appGlideModule;
  *
  *    GeneratedAppGlideModule() {
@@ -83,7 +83,8 @@ import javax.lang.model.type.TypeMirror;
 final class AppModuleGenerator {
   static final String GENERATED_ROOT_MODULE_PACKAGE_NAME = "com.bumptech.glide";
   private static final String GLIDE_LOG_TAG = "Glide";
-  private static final String GENERATED_APP_MODULE_IMPL_SIMPLE_NAME = "GeneratedAppGlideModuleImpl";
+  private static final String GENERATED_APP_MODULE_IMPL_SIMPLE_NAME =
+      "GeneratedAppGlideModuleImpl2";
   private static final String GENERATED_ROOT_MODULE_SIMPLE_NAME = "GeneratedAppGlideModule";
 
   private final ProcessingEnvironment processingEnv;

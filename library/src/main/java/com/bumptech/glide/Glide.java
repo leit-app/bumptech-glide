@@ -315,7 +315,7 @@ public class Glide implements ComponentCallbacks2 {
     try {
       Class<GeneratedAppGlideModule> clazz =
           (Class<GeneratedAppGlideModule>)
-              Class.forName("com.bumptech.glide.GeneratedAppGlideModuleImpl");
+              Class.forName("com.bumptech.glide.GeneratedAppGlideModuleImpl2");
       result =
           clazz.getDeclaredConstructor(Context.class).newInstance(context.getApplicationContext());
     } catch (ClassNotFoundException e) {
@@ -342,7 +342,7 @@ public class Glide implements ComponentCallbacks2 {
 
   private static void throwIncorrectGlideModule(Exception e) {
     throw new IllegalStateException(
-        "GeneratedAppGlideModuleImpl is implemented incorrectly."
+        "GeneratedAppGlideModuleImpl2 is implemented incorrectly."
             + " If you've manually implemented this class, remove your implementation. The"
             + " Annotation processor will generate a correct implementation.",
         e);

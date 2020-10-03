@@ -75,10 +75,10 @@ public class AppGlideModuleWithExcludesTest implements CompilationProvider {
   }
 
   @Test
-  public void compilation_generatesExpectedGeneratedAppGlideModuleImpl() throws IOException {
+  public void compilation_generatesExpectedGeneratedAppGlideModuleImpl2() throws IOException {
     assertThat(compilation)
-        .generatedSourceFile(glide("GeneratedAppGlideModuleImpl"))
-        .hasSourceEquivalentTo(forResource("GeneratedAppGlideModuleImpl.java"));
+        .generatedSourceFile(glide("GeneratedAppGlideModuleImpl2"))
+        .hasSourceEquivalentTo(forResource("GeneratedAppGlideModuleImpl2.java"));
   }
 
   @Test
